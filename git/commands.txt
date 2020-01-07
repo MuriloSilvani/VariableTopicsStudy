@@ -1,0 +1,46 @@
+git init
+git init --bare
+git status
+git add <file> // .  : adiciona no push
+git rm : remove do push
+
+doc git : https://git-scm.com/book/pt-br/v2
+
+git log
+git log --oneline
+git log --p
+https://devhints.io/git-log : parametros para log
+git log --help
+
+git remote
+git remote add <nome-local>
+
+git push <nome-local> master
+git pull <nome-local> master
+
+git branch
+git branch <título>
+git checkout <título>
+git checkout -b <título>
+
+git merge <título>
+
+git rebase <título>
+
+? 07/01
+
+git checkout -- <file-name>
+git reset HEAD <file-name>
+git revert <hash-commit>
+
+git stash
+git stash list
+git stash apply <number>
+git stash drop <number>
+git stash pop <number>
+
+git diff <hash-1>..<hash-2>
+
+git tag
+git tag <name>
+git push origin <tag>
