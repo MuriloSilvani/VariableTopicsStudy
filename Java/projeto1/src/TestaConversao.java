@@ -9,10 +9,10 @@ public class TestaConversao {
 		System.out.println("Salario: " + salario);
 		System.out.println("Valor: " + valor);
 		
-		// int - 32bits
+		// int - 32bytes
 		// double
-		// long - int de 64bits
-		// short - 16bits
+		// long - int de 64bytes
+		// short - 16bytes
 		// byte - -128..127
 
 		double valor1 = 0.2;
@@ -20,5 +20,7 @@ public class TestaConversao {
 		double valorTotal = valor1 + valor2;
 		
 		System.out.println(valorTotal);
+		// 0.30000000000000004
+		// retorno errado ?/
 	}
 }
