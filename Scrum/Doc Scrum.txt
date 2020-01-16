@@ -1,0 +1,48 @@
+O Scrum é um framework ágil e sua principal característica é trabalhar com time-boxes: caixas de tempo cujo tamanho, uma vez definido, não muda durante a Sprint atual.
+
+Sprint é a time-box básica do Scrum. Ela é o tempo que o time tem para agregar valor para o usuário do projeto.
+
+Embora dois dias também seja um valor permitido, é muito raro conseguirmos realmente agregar valor o bastante para conseguirmos uma Sprint. Dois meses ou dois anos violam a regra da duração máxima da Sprint, que é limitada a 1 mês.
+
+Sempre que não estamos conseguindo entregar ou validar o valor entregue, pode ser necessário aumentar o tamanho da Sprint.
+
+Quanto maior o Sprint, menos chances de feedback temos e, portanto, maior o risco de errarmos o que precisa ser feito.
+
+A Review Meeting é uma reunião para mostrar o que o time produziu nessa Sprint para o cliente ou usuário.
+
+Participam dessa reunião o time todo (desenvolvedores, Product Owner e Scrum Master) e mais o cliente e/ou usuários interessados nos itens desenvolvidos nessa Sprint.
+
+O Product Owner deve anotar as modificações que serão necessárias, transformá-las em histórias e adicionar ao Product Backlog, na prioridade que couber a elas.
+
+Trazendo o usuário para a reunião, podemos vê-lo utilizar o sistema e, assim, aprender a pensar mais como ele. Além disso, ainda que um cliente dê ok para uma funcionalidade, ele também pode ter algum problema de comunicação com seu usuário. Isto é, o que está certo para o cliente pode não atender quem realmente interessa: o usuário do projeto.
+
+A Definição de Pronto é uma sequência de passos pelos quais cada história (item de desenvolvimento) precisa passar para sair de "A fazer" e ser considerada "Pronta", isto é, mostrável para o cliente.
+Testes de aceitação => Desenvolvimento => Code Review => Aprovando => Pronto
+
+A retrospectiva é a maior oportunidade, em cada Sprint, de promovermos melhorias no processo, no time e no andamento do projeto que está sendo desenvolvido.
+
+Retrospective Prime Directive - Independentemente do que descobrirmos, nós entendemos e acreditamos de verdade que todos fizeram o melhor trabalho que puderam, dado o que eles sabiam no momento, suas habilidades e perícia, os recursos disponíveis e a situação que enfrentaram.
+
+DailyScrum - 	O que fiz desde o último Daily Scrum?
+		O que pretendo fazer até o próximo?
+		Quais problemas me atrapalharam?
+Para todos saberem como está o andamento das tarefas e histórias nessa Sprint, evitando retrabalho e ajudando uns aos outros. A Timebox é de 15 minutos.
+
+No Scrum, toda Sprint começa com uma reunião para entendermos os itens a serem feitos, planejarmos o que cabe no tempo disponível e definirmos a meta para o time nessa Sprint. A reunião consome 5% do tempo da Sprint então, para Sprint de uma semana, a reunião dura no máximo 2 horas.
+
+o product backlog só tem histórias e o sprint backlog tem histórias e tarefas
+
+Product Backlog: apenas o P.O. altera, mas todos podem influenciá-lo, tanto desenvolvedores, scrum master e clientes
+
+Sprint Backlog: o cliente não pode alterá-lo ou influenciá-lo. Apenas o time altera esse backlog, renegociando internamente o escopo quando necessário, quebrando melhor as histórias em tarefas, etc.
+
+O Scrum Master age para manter a reunião produtiva e dentro do timebox combinado. Ele não coordena reuniões como faria um chefe tradicional, apenas ajuda o time a manter o foco!
+
+Diferentemente de clientes/usuários, o P.O. é uma pessoa só e trabalha diariamente com o time no decorrer do projeto. Product Owner é uma pessoa que faz parte do time e está disponível para ajudá-lo a produzir o maior valor possível para os clientes.
+
+Desenvolvedores - Programadores, arquitetos, DBAs, analistas, testers, pessoas de usabilidade e quaisquer outros papéis que ajudem o produto a evoluir.
+
+Há muitas responsabilidades focadas na entrega de valor que são dos Product Owners. Há muitas responsabilidades focadas em processos que são do Scrum Master.
+
+Juntar ambos os papéis é um acúmulo muito grande de responsabilidades e frequentemente leva ao abandono de um dos lados, desbalanceando o equilíbrio do Scrum.
+
