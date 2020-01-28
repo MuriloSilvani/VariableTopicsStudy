@@ -45,4 +45,3 @@ Desenvolvedores - Programadores, arquitetos, DBAs, analistas, testers, pessoas d
 Há muitas responsabilidades focadas na entrega de valor que são dos Product Owners. Há muitas responsabilidades focadas em processos que são do Scrum Master.
 
 Juntar ambos os papéis é um acúmulo muito grande de responsabilidades e frequentemente leva ao abandono de um dos lados, desbalanceando o equilíbrio do Scrum.
-

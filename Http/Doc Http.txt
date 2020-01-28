@@ -1,0 +1,36 @@
+Client-server
+
+HTTP: HyperText Transfer Protocol
+SSL/TLS: Secure Sockets Layer / Transport Layer Security
+DNS: Domain Name System // O DNS realiza a tradução do nome de um domínio para o endereço de IP. Existem vários servidores DNS no mundo e é fundamental para a nossa web o funcionamento deles.
+Status code
+
+200 - OK			|	2xx - Successful
+301 - Moved Permanently	|	3xx - Redirection
+404 - Not Found		|	4xx - Client error
+500 - Internal Server Error	|	5xx - Server error
+https://httpstatuses.com/	https://httpstatusdogs.com/	https://http.cat/
+
+Methods HTTP
+
+GET		|	Receber (Params)
+POST		|	Enviar
+PUT		|	Atualizar
+DELETE	|	Deletar
+
+REST é um padrão arquitetural para comunicações entre aplicações
+Ele aproveita a estrutura do HTTP
+Recursos são definidos via URI
+Operações com métodos HTTP(GET/POST/PUT/DELETE)
+Cabeçalhos(Accept/Content-Type) são usados para especificar as representações(JSON,XML,...)
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+
+Apesar do protocolo HTTP/1.1 ter sido de extrema importância para a Web ao longo de vários anos, como toda boa tecnologia, é necessário um update. A nova versão do HTTP veio para adequar este protocolo tão famoso a um mundo onde temos muito mais dados sendo trafegados na rede, e a velocidade de acesso e segurança do usuário se tornam bastante importantes.
+
+O HPACK é uma tecnologia especializada em comprimir os Headers das comunicações HTTP/2. Como toda requisição HTTP acompanha algum header por padrão, uma tecnologia de compressão embutida no protocolo é demasiadamente útil para economizar dados trafegados.
+
+Headers Stateful  permitem que apenas os cabeçalhos que mudem sejam enviados a cada requisição, economizando muita banda que seriam cabeçalhos repetidos.
+
+Server Push no HTTP/2 - O servidor pode empurrar para o clientes certos recursos antes mesmo de serem solicitados, pois ele consegue analisar o HTML e ver o que mais é preciso para carregar a página fazendo com que não seja necessário gastar tempo pedindo todos os outros recursos.
+
+Multiplexing (requisições e respostas são paralelas)

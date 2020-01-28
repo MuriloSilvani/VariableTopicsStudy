@@ -1,0 +1,32 @@
+Os hubs não conseguem saber qual equipamento está conectado em cada porta. Dessa forma, o tráfego é redirecionado para todas as portas, causando lentidão e representando uma vulnerabilidade de segurança.
+
+Qual seria uma das formas mais efetivas que um hacker pode vir a comprometer o funcionamento de um switch? Uma das formas seria "lotar" a memória do switch com uma grande quantidade de endereços mac. Uma vez que a memória do switch esteja cheia, o switch não conseguirá mais distinguir quem está conectado em cada porta e passa a atuar como um hub.
+
+ping <ip>
+macof -i <rede<eth0>>
+GNS3
+
+O que consiste o ataque Man In the Middle (MITM)?O ataque consiste em manipular a tabela ARP de dispositivios para que o Hacker fique assim no meio da comunicação e possa visualizar o tráfego.
+
+O ataque de DNS Spoofing consiste em alterar a tradução entre URL e endereço IP para que essa url seja redirecionada a um endereço IP de controle do Hacker.
+
+O que consiste o ataque DOS?O ataque consiste em um usuário que utiliza de formas para consumir os recursos de um serviço (por exemplo, abrir várias conexões) com o objetivo assim de tornar o serviços indisponível para outros usuários.
+
+Quais são algumas formas nas quais as redes corporativas podem tentar se proteger de ataques de DoS? Poderíamos ter equipamentos na rede que fazem detecção de possíveis ataques como o Intrusion Detection System (IDS) ou prevenção desses ataques como o Intrusion Prevention System (IPS).
+
+Qual seria uma diferença entre o Intrusion Detection System (IDS) e o Intrusion Prevention System (IPS)? O Intrusion Detection System é capaz de detectar o ataque mas não impedí-lo como o IPS é capaz de fazer.	O Intrusion Detection System (IDS) recebe apenas cópias dos tráfego, dessa forma, ele não é capaz de impedir que um ataque seja propagado para outros pontos da nossa rede. Ele irá encaminhar alarmes para que possamos assim saber dos problemas que foram detectados e encontrar soluções.	O Intrusion Prevention System (IPS) é conectado diretamente na rede, dessa forma, ao analisar algum tipo de anomalia o IPS é capaz de impedir que esse tráfego seja propagado para outros pontos da minha rede.
+
+O que consiste um ataque DDoS? O ataque de DDoS consiste em distribuir o ataque entre vários usuários. Uma vez que várias máquinas estão realizando a comunicação com tal serviço, é possível que ocorra um comprometimento desse serviço (por exemplo, saturando o link) tornando-o assim indisponível.
+
+O que são as chamadas Botnets em um ataque DDoS? Botnets é um termo usado para referenciar máquinas que foram infectadas e podem ser assim usadas para realizar um ataque.
+
+Qual seria a função dos firewalls em uma rede? O firewall é usado para dividir uma rede segura (rede interna) de uma rede não segura(por exemplo, a internet) e podemos assim controlar o tráfego que é permitido ou negado entre a rede interna e a rede externa.
+
+O que seria a região desmilitarizada (DMZ)? A região desmilitarizada seria a região na qual temos recursos que devem ser acessados por usuários da internet. Dessa forma, conseguimos isolar essa região de recursos que precisam ser acessados externamente dos recursos que devem ser acessados somente por usuários de nossa rede interna
+
+Como é possível que um firewall com memória Stateful permita um pacote externo de acessar recursos internos da rede?
+O firewall com memória stateful é capaz de analisar a requisição que foi realizada, endereços IP, portas de comunicação, etc. Dessa forma, quando for retornado um pacote de resposta a essa requisição, o firewall poderá comparar os dados chegados com os que possui na tabela e assim poderá perceber que trata-se de um retorno a uma requisição e permitirá o acesso.
+
+O que seria um Reverse Shell e porque ele seria importante em um ataque? O Reverse Shell seria a forma na qual a máquina alvo conecta-se com a máquina de ataque, fazendo com que o Hacker ganhe acesso a máquina. Esse ataque torna-se útil, pois é possível que equipamentos de segurança conceda permissão de acesso, uma vez que poderia ser interpretado como sendo um retorno a uma requisição.
+
+Qual seria uma das formas mais simples e efetivas de se obter um Reverse Shell? Uma das formas seria criar um arquivo infectado e mandarmos um link ou e-mail para vítima de uma forma que ela seja convencida por meios da engenharia social a realizar o download do link. Ao realizar o download e executar o arquivo, iniciaria a conexão com a máquina de ataque formando um Reverse Shell

@@ -1,0 +1,27 @@
+Capítulo 1: SQL Injection, o que o hacker pode utilizar para manipular um banco de dados?
+
+Capítulo 2: Situações nas quais se força a autenticação
+
+Capítulo 3: Cross Site Scripting (XSS)
+
+Capítulo 4: Engenharia Social. Teremos uma página original e tentaremos replicar ela com características muito próximas e quais métodos são utilizados para enganar as vítimas?
+
+Capítulo 5: Falhas de segurança, simulamos um recrutamento do Anonymus
+
+Injection: No primeiro capítulo aprendemos sobre injeção de código SQL, inclusive, fomos capazes de extrair informações do Banco de Dados, mencionamos também problemas de autenticação de força bruta, fizemos downloads de listas e utilizamos o Burb Suite;
+
+Cross site Scripting: aprendemos sobre esse tipo de ataque e como exercício introduzimos um código javascript e uma imagem do Anonymus em um site, ainda, realizamos o sequestro de sessão para nos logar como usuário admin;
+
+Conseguimos fazer um redirecionamento de objeto, vimos problemas de configuração ou o que acontece quando acreditamos que não indexar um endereço é proteção o suficiente. Falamos também sobre Upload de arquivos, cuidados sobre quais arquivos um usuário está enviando e informações sobre exposição de dados sensíveis
+
+Falamos sobre vulnerabilidades existentes nos sistemas quando fizemos o clone da página do WordPress e exploramos também o redirect para enganar a vítima.
+
+sqlmap -u [url]
+
+Peça para o Sqlmap procurar qual banco a aplicação está usando. Podemos fazer isso através do comando --current-db
+
+Peça para o Sqlmap procurar as tabelas no banco nowasp Podemos fazer isso através do comando --tables -D nowasp
+
+Peça para o Sqlmap mostrar os valores que estão na tabela accounts que está no banco nowasp Podemos fazer isso através do comando --dump
+
+tipo de ataque no qual inserimos um código visando manipular outros usuários é conhecido como Cross Site Scripting*(XSS) e pelo fato de persistir no Banco de Dados, ele é classificado também como Persistent.os ataques XSS Persistent são aqueles onde os scripts são armazenados permanentemente no back-end. A vítima então recebe esse script ao realizar o acesso a página >> https://github.com/ESAPI/esapi-java
