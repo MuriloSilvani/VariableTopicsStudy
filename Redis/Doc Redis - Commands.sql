@@ -85,3 +85,51 @@ SETBIT chave valor bit
 SETBIT acesso:userid 36 1
 -- Contar bit true
 BITCOUNT acesso:userid
+
+SETBIT acesso:28-01-2020 1 1
+SETBIT acesso:28-01-2020 2 1
+SETBIT acesso:28-01-2020 3 0
+
+SETBIT acesso:29-01-2020 1 0
+SETBIT acesso:29-01-2020 2 0
+SETBIT acesso:29-01-2020 3 1
+
+-- Operadores
+BITOP AND acesso:28-e-29-01-2020 acesso:28-01-2020 acesso:29-01-2020
+
+GETBIT acesso:28-e-29-01-2020
+
+
+BITOP OR acesso:28-ou-29-01-2020 acesso:28-01-2020 acesso:29-01-2020
+BITCOUNT acesso:28-ou-29-01-2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BITOP AND acesso:/home:27e28-01-2020 acesso:/home:27-01-2020 acesso:/home:28-01-2020
+
+BITOP OR acesso:/home:27ou28-01-2020 acesso:/home:27-01-2020 acesso:/home:28-01-2020
+
+
+SETBIT acesso:/home:27-01-2020 1 0
+SETBIT acesso:/home:27-01-2020 2 0
+SETBIT acesso:/home:27-01-2020 3 1
+SETBIT acesso:/home:27-01-2020 4 1
+
+SETBIT acesso:/home:28-01-2020 1 0
+SETBIT acesso:/home:28-01-2020 2 1
+SETBIT acesso:/home:28-01-2020 3 0
+SETBIT acesso:/home:28-01-2020 4 1
+
+BITCOUNT acesso:/home:27e28-01-2020
+BITCOUNT acesso:/home:27ou28-01-2020
